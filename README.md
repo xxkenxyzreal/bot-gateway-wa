@@ -1,5 +1,7 @@
 # bot-gateway-wa
 
+Untuk membuat bot gateway untuk WhatsApp (WA), Anda perlu menggunakan layanan pihak ketiga seperti Twilio atau Dialogflow WhatsApp API. Dalam contoh ini, kami akan menggunakan Twilio WhatsApp API. Berikut adalah contoh kode JavaScript menggunakan Twilio untuk membuat bot gateway WA
+
 Pastikan Anda memiliki akun Twilio yang valid dan telah mengganti nilai YOUR_TWILIO_ACCOUNT_SID, YOUR_TWILIO_AUTH_TOKEN, YOUR_TWILIO_PHONE_NUMBER, RECIPIENT_PHONE_NUMBER sesuai dengan informasi akun dan nomor telepon Anda.
 
 Dalam contoh di atas, kami menggunakan Express untuk membuat server HTTP yang akan menerima webhook dari Twilio. Ketika ada pesan masuk, kita memproses pesan tersebut dan meresponsnya dengan menggunakan objek twilio.twiml.MessagingResponse.
